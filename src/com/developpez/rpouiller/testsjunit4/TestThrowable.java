@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class TestThrowable {
 
-    @Test(expected=ArrayIndexOutOfBoundsException.class)
+    @Test(expected=IllegalArgumentException.class)
     public void divisionAvecUnNombre() {
         Operations.diviser(1);
     }
